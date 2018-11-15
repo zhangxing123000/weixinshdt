@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user
+END
+UserOpenid.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/UserOpenid.java
+END
+MessgeCustomSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/MessgeCustomSend.java
+END
+UserOpenidList.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/UserOpenidList.java
+END
+Messgefilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/Messgefilter.java
+END
+WeiXinUserList.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/WeiXinUserList.java
+END
+WeiXinUserGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/WeiXinUserGet.java
+END
+TagInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/TagInfo.java
+END
+UserTags.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/UserTags.java
+END
+MessgeContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/MessgeContent.java
+END
+MessgeData.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/MessgeData.java
+END
+MessgeSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/MessgeSend.java
+END
+WeiXinUserInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/WeiXinUserInfo.java
+END
+MessgeTemplateData.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/MessgeTemplateData.java
+END
+UserbyTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/UserbyTag.java
+END
+MessgeTemplateSend.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/MessgeTemplateSend.java
+END
+MessgeMiniprogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/MessgeMiniprogram.java
+END
+WeiXinUserData.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/WeiXinUserData.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/user/package-info.java
+END

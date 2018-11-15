@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/project/!svn/ver/481/weixin/weixinshdt/src/com/shdt/wxutil
+END
+SignUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxutil/SignUtil.java
+END
+CommonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxutil/CommonUtil.java
+END
+CheckUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxutil/CheckUtil.java
+END
+MessageUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxutil/MessageUtil.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxutil/package-info.java
+END
+WeixinUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/481/weixin/weixinshdt/src/com/shdt/wxutil/WeixinUtil.java
+END

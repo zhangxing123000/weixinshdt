@@ -1,0 +1,24 @@
+package com.shdt.user;
+
+/**
+ * 20170725
+ * @author Administrator
+ *
+ */
+public class UserOpenid {
+	
+  String openid="";//openid
+  String lang="";//语言
+public String getOpenid() {
+	return openid;
+}
+public void setOpenid(String openid) {
+	this.openid = openid;
+}
+public String getLang() {
+	return lang;
+}
+public void setLang(String lang) {
+	this.lang = lang;
+}
+}

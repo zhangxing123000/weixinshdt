@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/event
+END
+SubscribeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/event/SubscribeEvent.java
+END
+QRCodeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/event/QRCodeEvent.java
+END
+MenuEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/event/MenuEvent.java
+END
+BaseEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/event/BaseEvent.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/event/package-info.java
+END
+LocationEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/event/LocationEvent.java
+END

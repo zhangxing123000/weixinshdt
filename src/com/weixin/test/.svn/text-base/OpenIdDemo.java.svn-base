@@ -1,0 +1,51 @@
+package com.shdt.test;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.json.JSONObject;
+
+import com.sun.tools.ws.processor.model.Model;
+
+public class OpenIdDemo extends HttpServlet{
+	static String appId = "wxd426078cc6b4e46f";
+	static String appSecret = "1dfdcf7c1f280d9042fb2516baad57cb";
+	
+	public static String exchange(String code) {
+        String openid = "";
+        // 换取access_token 其中包含了openid
+        // 这里通过code换取的是一个特殊的网页授权access_token,与基础支持中的access_token（该access_token用于调用其他接口）不同。
+//        String URL = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code"
+//                .replace("APPID", appId).replace("SECRET", appSecret).replace("CODE", code);
+//        String jsonStr = HttpUtil.sendGet(URL);
+//        logger.info("----------换取openid返回的结果:{}----------", jsonStr);
+//        JSONObject jsonObj = new JSONObject(jsonStr);
+//        try {
+//            openid = jsonObj.getString("openid");
+//        } catch (JSONException e) {
+//            logger.info("----------换取openid发生了异常:{}----------", e.getMessage());
+//        }
+        return openid;
+    }
+	
+    public String doPost(HttpServletRequest request, HttpServletResponse response, Model model) {
+        //得到code
+//        String CODE = request.getParameter("code");
+//        String APPID = appId;
+//        String SECRET = appSecret;
+//        //换取access_token 其中包含了openid
+//        String URL = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=APPID&secret=SECRET&code=CODE&grant_type=authorization_code".replace("APPID", APPID).replace("SECRET", SECRET).replace("CODE", CODE);
+//        //URLConnectionHelper是一个模拟发送http请求的类
+//        String jsonStr = URLConnectionHelper.sendGet(URL);
+//        //System.out.println(jsonStr);
+//        //out.print(jsonStr);
+//        JSONObject jsonObj = new JSONObject(jsonStr);
+//        String openid = jsonObj.get("openid").toString();
+//        //有了用户的opendi就可以的到用户的信息了
+//        //地址为https://api.weixin.qq.com/sns/userinfo?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN
+//        //得到用户信息之后返回到一个页面
+//        model.addAttribute("user", wechatUser);
+        return "vip/userInfo";
+    }
+}

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req
+END
+LinkMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req/LinkMessage.java
+END
+ImageMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req/ImageMessage.java
+END
+VideoMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req/VideoMessage.java
+END
+TextMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req/TextMessage.java
+END
+BaseMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req/BaseMessage.java
+END
+VoiceMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req/VoiceMessage.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req/package-info.java
+END
+LocationMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/req/LocationMessage.java
+END

@@ -1,0 +1,93 @@
+package com.shdt.wxservlet;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.shdt.http.WechatProcess;
+
+import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+
+/**
+ * Servlet implementation class WeiXinServlet
+ */
+
+public class WeiXinServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public WeiXinServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+		System.out.print("servlet WeiXinServlet doGet start : \n ");
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+		
+		  /** 读取接收到的xml消息 */  
+	      StringBuffer sb = new StringBuffer();  
+	      InputStream is = request.getInputStream();  
+	      InputStreamReader isr = new InputStreamReader(is, "UTF-8");  
+	      BufferedReader br = new BufferedReader(isr);  
+	      String s = "";  
+	      while ((s = br.readLine()) != null) {  
+	          sb.append(s);  
+	      }  
+	      String xml = sb.toString(); //次即为接收到微信端发送过来的xml数据  
+	      System.out.print("\n doPost xml:"+xml);
+	      String result = "";  
+	      /** 判断是否是微信接入激活验证，只有首次接入验证时才会收到echostr参数，此时需要把它直接返回 */  
+	      String echostr = request.getParameter("echostr");  
+	      System.out.print("\n WeiXinServlet doPost echostr:"+xml);
+
+	      if (echostr != null && echostr.length() > 1) {  
+	          result = echostr;  
+	          System.out.print("\n servlet WeiXinServlet echostr != null :"+result);
+	      } else {  
+	          //正常的微信处理流程  
+	          result = new WechatProcess().processWechatMag(xml); 
+	      	System.out.print("servlet WeiXinServlet result :"+result);
+	      }  
+
+	      try {  
+	    	  // 根据消息自动回复。
+	          OutputStream os = response.getOutputStream();  
+	          os.write(result.getBytes("UTF-8"));  
+	      	System.out.print("result.getBytes(UTF-8) :"+result.getBytes("UTF-8"));
+	          os.flush();  
+	          os.close();  
+	      } catch (Exception e) {  
+	          e.printStackTrace();  
+	      	System.out.print("e.printStackTrace();   "+e.toString());
+	      } 
+	}
+
+}

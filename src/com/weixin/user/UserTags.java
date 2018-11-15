@@ -1,0 +1,29 @@
+package com.weixin.user;
+
+import java.util.List;
+/**
+ * 20170725
+ */
+public class UserTags {
+
+	// OpenId列表
+	private List<String> openid_list;
+	private String tagid;
+
+	public List<String> getOpenid_list() {
+		return openid_list;
+	}
+
+	public void setOpenid_list(List<String> openid_list) {
+		this.openid_list = openid_list;
+	}
+
+	public String getTagid() {
+		return tagid;
+	}
+
+	public void setTagid(String tagid) {
+		this.tagid = tagid;
+	}
+
+}

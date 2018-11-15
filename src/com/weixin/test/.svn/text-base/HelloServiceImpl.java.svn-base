@@ -1,0 +1,13 @@
+package com.shdt.test;
+
+import javax.jws.WebService;
+
+@WebService (endpointInterface = "com.shdt.test.HelloService" )
+public class HelloServiceImpl implements HelloService {
+
+      @Override
+      public String greetings(String name) {
+            return "Hello: " + name;
+     }
+
+}

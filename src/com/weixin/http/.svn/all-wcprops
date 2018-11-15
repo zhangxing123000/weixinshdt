@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http
+END
+AesException.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/AesException.java
+END
+PKCS7Encoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/PKCS7Encoder.java
+END
+FormatXmlProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/FormatXmlProcess.java
+END
+WXBizMsgCrypt.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/WXBizMsgCrypt.java
+END
+WeiXinResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/WeiXinResult.java
+END
+XMLParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/XMLParse.java
+END
+ReceiveXmlProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/ReceiveXmlProcess.java
+END
+HttpRequestUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/HttpRequestUtil.java
+END
+WechatProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/WechatProcess.java
+END
+MyX509TrustManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/MyX509TrustManager.java
+END
+ByteGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/ByteGroup.java
+END
+ReceiveXmlEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/ReceiveXmlEntity.java
+END
+SHA1.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/SHA1.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/http/package-info.java
+END

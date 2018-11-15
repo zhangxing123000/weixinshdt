@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/com/weixin/demo/ViewServlet.java=UTF-8
+encoding//src/com/weixin/http/FormatXmlProcess.java=UTF-8
+encoding//src/com/weixin/http/HttpRequestUtil.java=UTF-8
+encoding//src/com/weixin/http/MyX509TrustManager.java=UTF-8
+encoding//src/com/weixin/http/PKCS7Encoder.java=UTF-8
+encoding//src/com/weixin/http/ReceiveXmlEntity.java=UTF-8
+encoding//src/com/weixin/http/ReceiveXmlProcess.java=UTF-8
+encoding/<project>=UTF-8

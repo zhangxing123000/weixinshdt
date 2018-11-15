@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp
+END
+ImageMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/ImageMessage.java
+END
+VideoMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/VideoMessage.java
+END
+Image.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/Image.java
+END
+Video.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/Video.java
+END
+TextMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/TextMessage.java
+END
+BaseMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/BaseMessage.java
+END
+Article.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/Article.java
+END
+Music.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/Music.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/package-info.java
+END
+VoiceMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/VoiceMessage.java
+END
+NewsMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/NewsMessage.java
+END
+MusicMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/MusicMessage.java
+END
+Voice.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/project/!svn/ver/381/weixin/weixinshdt/src/com/shdt/wxmessage/resp/Voice.java
+END
